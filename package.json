@@ -2,5 +2,15 @@
   "name": "grunthelpers",
   "version": "1.0.0",
   "main": "Framework.js",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "async": "3.2.0",
+    "chalk": "4.1.0",
+    "csv": "5.3.2",
+    "fs-extra": "9.0.1",
+    "globs": "0.1.4",
+    "iconv-lite": "0.6.0",
+    "jschardet": "2.1.1",
+    "lodash": "4.17.15"
+  }
 }
