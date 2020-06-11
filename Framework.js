@@ -28,8 +28,8 @@ class Framework {
    */
   constructor({
     rootPath = process.cwd(),
-    outputPath = process.cwd() + '/build/',
-    sourcePath = process.cwd() + '/src/',
+    outputPath = `${rootPath}/build/`,
+    sourcePath = `${rootPath}/src/`,
     includedFilter = function() { return true; },
     jsonext = 'json',
     useOutputData = false,

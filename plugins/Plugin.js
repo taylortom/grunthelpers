@@ -73,7 +73,8 @@ class Plugin {
   get schemaLocations() {
     return [
       `${this.sourcePath}properties.schema`,
-      `${this.sourcePath}schema/*.schema`
+      `${this.sourcePath}schema/*.schema`,
+      `${this.sourcePath}schema/*.schema.json`
     ];
   }
 
